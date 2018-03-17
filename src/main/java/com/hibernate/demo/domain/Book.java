@@ -59,4 +59,8 @@ public class Book {
         this.title = title;
         this.size = size;
     }
+
+    public Book(){
+        //for hibernate
+    }
 }

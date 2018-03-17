@@ -5,10 +5,12 @@ import com.hibernate.demo.domain.Author;
 import com.hibernate.demo.domain.Book;
 import com.hibernate.demo.domain.Category;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Set;
 
+@Component
 public class BookService {
 
     @Autowired

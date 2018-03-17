@@ -3,9 +3,10 @@ package com.hibernate.demo.service;
 import com.hibernate.demo.dao.CategoryRepository;
 import com.hibernate.demo.domain.Category;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 public class CategoryService {
 
     @Autowired

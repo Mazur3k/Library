@@ -3,9 +3,11 @@ package com.hibernate.demo.service;
 import com.hibernate.demo.dao.AuthorRepository;
 import com.hibernate.demo.domain.Author;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class AuthorService {
 
     @Autowired

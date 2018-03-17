@@ -19,7 +19,10 @@ public class Author {
     @ManyToMany
     private Set<Book> books;
 
-
+    public Author(){
+        //hibernate wants it
+        //cant have a bean without no-args constructor, because hibernate creates no-args object and set its properties via setters
+    }
 
     public Author(String name, String lastname, int age){
         this.name = name;
